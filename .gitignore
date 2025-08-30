@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Build / packaging
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+
+# Testing / tooling caches
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+.pytype/
+.tox/
+.nox/
+.coverage*
+coverage.xml
+
+# Editors / OS
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Ruff / pylint
+.ruff_cache/
+.pylint.d/
